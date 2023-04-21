@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3121" started-at="2022-10-26T09:06:25Z" finished-at="2022-10-26T09:06:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3121" started-at="2022-10-26T09:06:25Z" finished-at="2022-10-26T09:06:28Z">
+      <class name="org.postMan.DynamicJson">
+        <test-method status="PASS" signature="addBook(java.lang.String, java.lang.String)[pri:0, instance:org.postMan.DynamicJson@5419f379]" name="addBook" duration-ms="2687" started-at="2022-10-26T14:36:25Z" data-provider="BooksData" finished-at="2022-10-26T14:36:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method status="PASS" signature="addBook(java.lang.String, java.lang.String)[pri:0, instance:org.postMan.DynamicJson@5419f379]" name="addBook" duration-ms="218" started-at="2022-10-26T14:36:28Z" data-provider="BooksData" finished-at="2022-10-26T14:36:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[def]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method status="PASS" signature="addBook(java.lang.String, java.lang.String)[pri:0, instance:org.postMan.DynamicJson@5419f379]" name="addBook" duration-ms="185" started-at="2022-10-26T14:36:28Z" data-provider="BooksData" finished-at="2022-10-26T14:36:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ghi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6789101]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+      </class> <!-- org.postMan.DynamicJson -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
